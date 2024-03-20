@@ -1,0 +1,161 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #16c5e9;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 220px;
+  height: auto;
+  margin: auto;
+  border-radius: 6px;
+  background: white;
+  text-align: center;
+}
+
+.content{
+  padding: 8px 16px;
+}
+
+.top-bar{
+  display: flex;
+  padding: 8px 16px;
+  color: #16c5e9;
+  border-bottom: 1px solid #dedfd4;
+  font-weight: 700;
+  gap: 5px;
+}
+
+.back-button{
+  border: none;
+}
+
+.font-awesome-icon:hover{
+  cursor: pointer;
+  background: white;
+}
+
+input::placeholder {
+  color: #dedfd4;
+  text-align: center;
+}
+
+p{
+  display: flex; 
+  flex-direction: row; 
+  color: #dedfd4;
+  margin: 6px 0px;
+}
+
+p>span{
+  padding: 0px 6px;
+}
+
+p::before,  p::after{
+  content: ""; 
+  flex: 1 1; 
+  border-bottom: 1.5px solid #dedfd4; 
+  margin: auto; 
+}
+
+input[type=text] {
+  width: 100%;
+  padding: 6px 0px;
+  margin : 8px 0px 0px 0px;
+  display: inline-block;
+  border: 1.5px solid #dedfd4;
+  border-radius: 3px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.location-button{
+  width: 100%;
+  background-color: #16c5e9;
+  color: white;
+  padding: 8px 0px;
+  margin-bottom: 8px ;
+  border: none;
+  border-radius: 3px;
+}
+
+.location-button:hover{
+  cursor: pointer;
+}
+
+.weather{
+  padding: 30px;
+  border-radius: 12px;
+  margin: 50px auto;
+  text-align: center;
+  background: white;
+}
+
+.weather-image {
+  display:flex;
+  justify-content: center;
+  height: 100px;
+}
+
+.weather-temp{
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.weather-condition{
+  padding: 4px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.weather-location{
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.data-container {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-top: 1.5px solid #dedfd4;
+  height: 40px;
+}
+
+.element{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  font-size: 5px;
+  font-weight: 400;
+}
+
+.wind-element{
+  border-right: 1.5px solid #dedfd4;
+  margin-left: -13px;
+}
+.text, .humidity-percent, .wind-speed {
+  font-size: 7px;
+  font-weight: 600;
+}
+
+.data{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.error-message{
+  padding: 25px;
+}
