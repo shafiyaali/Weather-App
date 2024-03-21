@@ -12,9 +12,9 @@ import { faLocationDot } from '@fortawesome/free-solid-svg-icons';
 
 function WeatherPage({weather, setShowWeather, isResultFound, isDeviceLocation}) {
     const [ wicon, setWicon ] = useState("");
-    console.log("weather weather",weather);
+    // console.log("weather weather",weather);
     const BackToHome = () => {
-        console.log("Back Clicked");
+        // console.log("Back Clicked");
         setShowWeather(false)
     }
     useEffect(() => {
