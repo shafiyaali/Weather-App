@@ -1,7 +1,7 @@
 This is the weather app designed for Hootboard
 
 1.To clone the repo for this project
-    git clone https://github.com/shafiyaali/WeatherApp-HootBoard.git
+    git clone https://github.com/shafiyaali/Weather-App.git
 
 2. To run the application, run the following command in terminal
     cd WeatherApp-HootBoard
